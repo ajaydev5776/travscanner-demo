@@ -1,0 +1,1490 @@
+:root {
+    --teal: #1bb5b2;
+    --darkteal: #068583;
+    --white: #ffffff;
+    --dark: #232323;
+    --bg: #efffff;
+    --shadow: #00000010;
+    --gray: #c2c2c2;
+    --heading: #003d3d;
+    --light-dark: #707070;
+    --teal-dark: #53a194;
+    --stepbar: #E9E9E9;
+    --stebactive: #5CF8F4;
+    --dark-gray: #9E9E9E;
+    --dark-border: #A4A4A4;
+    --light-gray: #646464;
+    --light: #F8F8F8;
+    --light-border: #D1D1D1;
+    --light-blue: #4DA6FF;
+    --blue-light: #85C1FC
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(var(--dark), 0)
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgba(var(--dark), 0)
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--teal)
+}
+
+.home_section {
+    background-image: url("../images/heroBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 58px 0px
+}
+
+.home_section .cards {
+    position: relative
+}
+
+.home_section .cards .scancard {
+    position: absolute;
+    max-width: 730px;
+    width: 100%;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.home_section .cards .scancard .scanheading {
+    color: var(--darkteal);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 46px;
+    border-radius: 11px
+}
+
+.home_section .cards .scancard .input-group {
+    margin-top: 10px;
+    box-shadow: 0px 0px 15px 0px var(--shadow);
+    background: rgba(0, 0, 0, 0);
+    border-radius: 11px
+}
+
+.home_section .cards .scancard .input-group .form-control,
+.home_section .cards .scancard .input-group .input-group-text {
+    height: 60px;
+    box-shadow: none;
+    border-radius: 11px
+}
+
+.home_section .cards .scancard .input-group .form-control {
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--gray)
+}
+
+.home_section .cards .scancard .input-group .form-control::-moz-placeholder {
+    color: var(--gray)
+}
+
+.home_section .cards .scancard .input-group .form-control::placeholder {
+    color: var(--gray)
+}
+
+.home_section .cards .scancard .input-group .input-group-text {
+    background-color: var(--white);
+    padding: 3px;
+    outline: none;
+    box-shadow: none
+}
+
+.home_section .cards .scancard .input-group .input-group-text .searchImg {
+    background-color: var(--darkteal);
+    border-radius: 8px;
+    height: 54px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.home_section .cards .scancard .input-group .input-group-text .searchImg img {
+    width: 22px
+}
+
+.destination-section {
+    padding-top: 156px
+}
+
+.destination-section .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.destination-section .card .cardImg {
+    max-width: 380px;
+    max-height: 300px;
+    height: 100%;
+    width: 100%
+}
+
+.destination-section .card .cardImg img {
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+.destination-section .card .card-body {
+    padding: 0px
+}
+
+.destination-section .card .card-body .heads {
+    color: var(--teal);
+    padding-top: 60px;
+    font-size: 60px;
+    line-height: normal
+}
+
+.destination-section .card .card-body .cnts {
+    font-weight: 600;
+    color: var(--teal);
+    font-size: 30px;
+    line-height: normal
+}
+
+.destination-section .owl-stage-outer {
+    padding: 0px
+}
+
+.travel-section {
+    margin: 80px 0px 90px 0px;
+    padding: 120px 0px 80px 0px;
+    background-color: var(--bg)
+}
+
+.travel-section .card {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.travel-section .card .cardImg {
+    max-width: 380px;
+    height: 250px;
+    width: 100%
+}
+
+.travel-section .card .cardImg img {
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+.travel-section .card .card-body .cnts {
+    font-weight: 600;
+    padding-top: 50px;
+    font-size: 20px;
+    line-height: normal
+}
+
+.testimonial-section .heading {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--heading);
+    margin-bottom: 40px
+}
+
+.testimonial-section .owl-carousel-1 {
+    height: 100%
+}
+
+.testimonial-section .owl-carousel-1 .owl-stage-outer {
+    height: 100%;
+    padding: 4rem 0rem 3rem 0rem
+}
+
+.testimonial-section .owl-carousel-1 .owl-stage-outer .owl-stage {
+    height: 100%
+}
+
+.testimonial-section .owl-carousel-1 .owl-stage-outer .owl-stage .owl-item {
+    height: 100%
+}
+
+.testimonial-section .owl-carousel-1 .owl-stage-outer .owl-stage .owl-item .item {
+    height: 100%;
+    padding: 0px 4px
+}
+
+.testimonial-section .owl-carousel-1 .owl-stage-outer .owl-stage .owl-item .item .card {
+    box-shadow: 0px 0px 15px 0px var(--shadow)
+}
+
+.testimonial-section .owl-carousel-1 .owl-stage-outer .owl-stage .owl-item .item .card .author-img {
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    border-radius: 100%;
+    overflow: hidden
+}
+
+.testimonial-section .owl-carousel-1 .owl-stage-outer .owl-stage .owl-item .item .card .card-body {
+    padding: 20px 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.testimonial-section .owl-carousel-1 .owl-stage-outer .owl-stage .owl-item .item .card .card-body .icons {
+    margin-top: 24px;
+    width: 129px;
+    height: 80px
+}
+
+.category-section {
+    margin-top: 60px;
+    padding: 70px 0px 50px 0px;
+    background-color: var(--bg)
+}
+
+.category-section .card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0
+}
+
+.category-section .card .images {
+    height: 110px;
+    width: 110px;
+    display: inline-flex
+}
+
+.category-section .card .images img {
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+.category-section .card .card-body {
+    padding-top: 50px;
+    margin-bottom: 90px
+}
+
+.category-section .card .card-body .cnts {
+    font-size: 22px;
+    line-height: normal;
+    text-align: center
+}
+
+.header_bar {
+    background-color: var(--teal)
+}
+
+.header_bar .topbar {
+    padding: 10px 0px
+}
+
+.header_bar .topbar .logo-text {
+    color: var(--white);
+    font-family: "Poppins";
+    font-size: 32px;
+    margin: 0
+}
+
+.footer {
+    background-color: var(--darkteal);
+    padding: 70px 0px 35px 0px;
+    color: var(--white)
+}
+
+.footer h3 {
+    margin-bottom: 14px;
+    font-size: 20px
+}
+
+.footer .content {
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--white);
+    opacity: .8
+}
+
+.footer ul {
+    padding: 0px;
+    list-style: none
+}
+
+.footer ul.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.footer ul li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--white);
+    opacity: .8
+}
+
+.footer ul li a span {
+    display: inline-flex;
+    width: 13px;
+    justify-content: center;
+    align-items: center
+}
+
+.footer ul li a span img {
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+.owlNav .owl-nav {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% + 110px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.owlNav .owl-nav button {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    position: relative;
+    display: inline-flex
+}
+
+.owlNav .owl-nav button span {
+    display: none
+}
+
+.owlNav .owl-nav button::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.owlNav .owl-nav button.owl-prev::before {
+    background-image: url(../images/owlnavleft.png)
+}
+
+.owlNav .owl-nav button.owl-next::before {
+    background-image: url(../images/owlnavright.png)
+}
+
+.owlNav .owl-dots {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px
+}
+
+.owlNav .owl-dots .owl-dot {
+    height: 16px;
+    width: 16px;
+    border-radius: 16px;
+    display: block;
+    border: 2px solid var(--light-dark)
+}
+
+.owlNav .owl-dots .owl-dot span {
+    display: none
+}
+
+.owlNav .owl-dots .owl-dot.active {
+    background-color: var(--teal-dark)
+}
+
+@media screen and (min-width: 1600px) {
+    .container {
+        max-width: 1480px !important
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .home_section .cards .scancard {
+        max-width: 620px;
+        top: 38px
+    }
+
+    .destination-section {
+        padding-top: 130px
+    }
+
+    .destination-section .card .card-body .heads {
+        padding-top: 65px;
+        font-size: 55px
+    }
+
+    .destination-section .card .card-body .cnts {
+        font-size: 28px
+    }
+
+    .travel-section {
+        margin: 70px 0px 80px 0px;
+        padding: 110px 0px 70px 0px
+    }
+
+    .travel-section .card .card-body .cnts {
+        padding-top: 45px
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .home_section .cards .scancard {
+        max-width: 570px;
+        top: 30px
+    }
+
+    .destination-section {
+        padding-top: 100px
+    }
+
+    .destination-section .card .card-body .heads {
+        padding-top: 60px;
+        font-size: 50px
+    }
+
+    .destination-section .card .card-body .cnts {
+        font-size: 27px
+    }
+
+    .travel-section {
+        margin: 60px 0px 70px 0px;
+        padding: 100px 0px 60px 0px
+    }
+
+    .travel-section .card .cardImg {
+        height: 220px
+    }
+
+    .travel-section .card .card-body .cnts {
+        padding-top: 40px;
+        font-size: 18x
+    }
+
+    .category-section {
+        padding: 100px 0px 90px 0px;
+        margin-top: 77px
+    }
+
+    .category-section .card .images {
+        height: 129px;
+        width: 129px
+    }
+
+    .category-section .card .card-body {
+        margin-bottom: 110px;
+        padding-top: 70px
+    }
+
+    .category-section .card .card-body .cnts {
+        font-size: 24px
+    }
+
+    .footer {
+        padding: 98px 0px 37px 0px
+    }
+
+    .footer h3 {
+        margin-bottom: 15px;
+        font-size: 24px
+    }
+
+    .footer .content {
+        font-size: 18px;
+        line-height: 26px
+    }
+
+    .footer ul.links {
+        gap: 20px
+    }
+
+    .footer ul li a {
+        font-size: 18px
+    }
+}
+
+@media screen and (max-width: 1199.98px) {
+    .header_bar .topbar {
+        padding: 10px 0px
+    }
+
+    .header_bar .topbar .logo-text {
+        font-size: 28px
+    }
+
+    .home_section {
+        padding: 55px 0px
+    }
+
+    .home_section .cards .scancard {
+        max-width: 500px;
+        top: 30px
+    }
+
+    .home_section .cards .scancard .scanheading {
+        font-size: 28px;
+        line-height: 40px
+    }
+
+    .home_section .cards .scancard .input-group .form-control,
+    .home_section .cards .scancard .input-group .input-group-text {
+        height: 50px
+    }
+
+    .home_section .cards .scancard .input-group .form-control {
+        font-size: 18px
+    }
+
+    .home_section .cards .scancard .input-group .input-group-text .searchImg {
+        height: 44px;
+        width: 55px
+    }
+
+    .home_section .cards .scancard .input-group .input-group-text .searchImg img {
+        width: 20px
+    }
+
+    .destination-section {
+        padding-top: 90px
+    }
+
+    .destination-section .card .card-body .heads {
+        padding-top: 45px;
+        font-size: 45px
+    }
+
+    .destination-section .card .card-body .cnts {
+        font-size: 24px
+    }
+
+    .travel-section {
+        margin: 40px 0px 116px 0px;
+        padding: 80px 0px 50px 0px
+    }
+
+    .travel-section .card .cardImg {
+        height: 180px
+    }
+
+    .travel-section .card .card-body .cnts {
+        font-size: 16px;
+        padding-top: 35px
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .header_bar .topbar {
+        padding: 10px 0px
+    }
+
+    .header_bar .topbar .logo-text {
+        font-size: 24px
+    }
+
+    .home_section {
+        padding: 50px 0px
+    }
+
+    .home_section .cards .scancard {
+        max-width: 400px;
+        top: 20px
+    }
+
+    .home_section .cards .scancard .scanheading {
+        font-size: 22px;
+        line-height: 30px
+    }
+
+    .home_section .cards .scancard .input-group .form-control,
+    .home_section .cards .scancard .input-group .input-group-text {
+        height: 45px
+    }
+
+    .home_section .cards .scancard .input-group .form-control {
+        font-size: 17px
+    }
+
+    .home_section .cards .scancard .input-group .input-group-text .searchImg {
+        height: 39px;
+        width: 50px
+    }
+
+    .home_section .cards .scancard .input-group .input-group-text .searchImg img {
+        width: 18px
+    }
+
+    .destination-section {
+        padding-top: 80px
+    }
+
+    .destination-section .card .card-body .heads {
+        padding-top: 40px;
+        font-size: 40px
+    }
+
+    .destination-section .card .card-body .cnts {
+        font-size: 23px
+    }
+
+    .travel-section {
+        margin: 40px 0px 80px 0px;
+        padding: 70px 0px 40px 0px
+    }
+
+    .travel-section .card .cardImg {
+        height: 140px
+    }
+
+    .travel-section .card .card-body .cnts {
+        font-size: 12px;
+        padding-top: 20px
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .header_bar .topbar {
+        padding: 8px 0px
+    }
+
+    .header_bar .topbar .logo-text {
+        font-size: 20px
+    }
+
+    .home_section {
+        padding: 50px 0px;
+        background-image: none;
+        background-color: var(--bg)
+    }
+
+    .home_section .cards {
+        display: flex;
+        flex-direction: column-reverse
+    }
+
+    .home_section .cards .scancard {
+        max-width: 400px;
+        position: unset;
+        transform: unset;
+        margin: 0px auto 30px
+    }
+
+    .home_section .cards .scancard .scanheading {
+        font-size: 20px;
+        line-height: 26px
+    }
+
+    .home_section .cards .scancard .input-group .form-control,
+    .home_section .cards .scancard .input-group .input-group-text {
+        height: 45px
+    }
+
+    .home_section .cards .scancard .input-group .form-control {
+        font-size: 16px
+    }
+
+    .home_section .cards .scancard .input-group .input-group-text .searchImg {
+        height: 39px;
+        width: 50px
+    }
+
+    .home_section .cards .scancard .input-group .input-group-text .searchImg img {
+        width: 18px
+    }
+
+    .destination-section {
+        padding-top: 70px
+    }
+
+    .destination-section .card .card-body .heads {
+        padding-top: 30px;
+        font-size: 35px
+    }
+
+    .destination-section .card .card-body .cnts {
+        font-size: 18px
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .header_bar .topbar .logo-text {
+        font-size: 18px
+    }
+
+    .home_section .cards .scancard {
+        max-width: 375px
+    }
+
+    .home_section .cards .scancard .scanheading {
+        font-size: 16px;
+        line-height: 26px
+    }
+
+    .home_section .cards .scancard .input-group .form-control,
+    .home_section .cards .scancard .input-group .input-group-text {
+        height: 40px
+    }
+
+    .home_section .cards .scancard .input-group .form-control {
+        font-size: 14px
+    }
+
+    .home_section .cards .scancard .input-group .input-group-text .searchImg {
+        height: 34px;
+        width: 40px
+    }
+
+    .home_section .cards .scancard .input-group .input-group-text .searchImg img {
+        width: 15px
+    }
+
+    .destination-section {
+        background-color: var(--bg);
+        padding-top: 50px
+    }
+
+    .destination-section .card {
+        background-color: rgba(0, 0, 0, 0)
+    }
+
+    .destination-section .card .cardImg {
+        max-width: 250px;
+        max-height: 250px;
+        margin: 0px auto
+    }
+
+    .destination-section .card .card-body .heads {
+        padding-top: 50px;
+        font-size: 30px;
+        color: var(--blue-light)
+    }
+
+    .destination-section .card .card-body .cnts {
+        font-size: 16px;
+        color: var(--blue-light)
+    }
+
+    .destination-section .owl-stage-outer {
+        padding: 0px 0px 30px 0px
+    }
+
+    .destination-section .owl-dots {
+        gap: 8px
+    }
+
+    .destination-section .owl-dots .owl-dot {
+        border: 2px solid var(--blue-light) !important
+    }
+
+    .destination-section .owl-dots .owl-dot span {
+        display: none
+    }
+
+    .destination-section .owl-dots .owl-dot.active {
+        background-color: var(--blue-light) !important
+    }
+
+    .travel-section {
+        margin: 0px 0px 0px 0px;
+        padding: 60px 0px 40px 0px;
+        background-color: var(--white)
+    }
+
+    .travel-section .owl-stage-outer {
+        padding: 0px 0px 30px 0px
+    }
+
+    .travel-section .owl-dots {
+        gap: 8px
+    }
+
+    .travel-section .owl-dots .owl-dot {
+        border: 2px solid var(--teal-dark) !important
+    }
+
+    .travel-section .owl-dots .owl-dot span {
+        display: none
+    }
+
+    .travel-section .owl-dots .owl-dot.active {
+        background-color: var(--teal-dark) !important
+    }
+
+    .travel-section .card .cardImg {
+        height: 140px
+    }
+
+    .travel-section .card .card-body .cnts {
+        font-size: 12px;
+        padding-top: 40px
+    }
+
+    .owlNav .owl-nav button {
+        width: 26px;
+        height: 26px;
+        border-radius: 26px
+    }
+
+    .owlNav .owl-nav button.disabled {
+        opacity: 0;
+        visibility: hidden
+    }
+
+    .owlNav .owl-dots {
+        gap: 8px
+    }
+
+    .owlNav .owl-dots .owl-dot {
+        height: 8px;
+        width: 8px;
+        border-radius: 8px;
+        display: block;
+        border: 2px solid var(--light-dark)
+    }
+
+    .owlNav .owl-dots .owl-dot span {
+        display: none
+    }
+
+    .owlNav .owl-dots .owl-dot.active {
+        background-color: var(--teal-dark)
+    }
+}
+
+.stepPage .stepcard {
+    box-shadow: 0px 0px 15px 0px var(--shadow)
+}
+
+.stepPage .stepcard .stepcarditems .stepHeading {
+    font-size: 27px;
+    color: var(--darkteal);
+    margin-bottom: 20px
+}
+
+.stepPage .stepcard .stepcarditems .card {
+    padding: 4px;
+    box-shadow: 0px 0px 15px 0px var(--shadow)
+}
+
+.stepPage .stepcard .stepcarditems .card.step1 {
+    background: url(../images/step1Bg.png) no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    min-height: 600px
+}
+
+.stepPage .stepcard .stepcarditems .card .stepBar ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 12px
+}
+
+.stepPage .stepcard .stepcarditems .card .stepBar ul li {
+    width: 100%
+}
+
+.stepPage .stepcard .stepcarditems .card .stepBar ul li .stepBtn {
+    box-shadow: none;
+    border: 0px;
+    display: inline-flex;
+    height: 19px;
+    width: 100%;
+    background-color: var(--stepbar)
+}
+
+.stepPage .stepcard .stepcarditems .card .stepBar ul li .stepBtn.active {
+    background-color: var(--stebactive)
+}
+
+.stepPage .stepcard .stepcarditems .card .crad-body .innerBody {
+    position: relative
+}
+
+.stepPage .stepcard .stepcarditems .card .crad-body .innerBody .backBtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+    color: var(--dark-gray);
+    box-shadow: none;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none
+}
+
+.stepPage .stepcard .stepcarditems .card .crad-body .innerBody .backBtn img {
+    height: 17px;
+    margin-top: 3px
+}
+
+.stepPage .stepcard .stepcarditems .card .crad-body .innerBody .setpformHeading {
+    font-size: 32px;
+    color: var(--teal);
+    margin-bottom: 30px
+}
+
+.stepPage .stepcard .stepcarditems .card .crad-body .innerBody .select .selectedGroup {
+    border: 1px solid var(--dark-border);
+    height: 60px;
+    border-radius: 11px;
+    font-size: 20px;
+    color: var(--gray)
+}
+
+.stepPage .stepcard .stepcarditems .card .crad-body .innerBody .select .selectedGroup .form-select {
+    cursor: pointer
+}
+
+.stepPage .stepcard .stepcarditems .card .crad-body .innerBody .select.inputGroup .selectedGroup {
+    color: var(--light-gray)
+}
+
+.stepPage .stepcard .stepcarditems .card .nextBtn {
+    height: 60px;
+    max-width: 185px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 26px;
+    color: var(--white);
+    line-height: normal;
+    background: var(--stebactive);
+    background: linear-gradient(90deg, rgb(40, 220, 217) 0%, rgb(27, 181, 178) 100%)
+}
+
+.stepPage .stepcard .stepcarditems .card .inputGroup .form-label {
+    font-size: 22px;
+    line-height: normal;
+    color: var(--dark-gray)
+}
+
+.stepPage .stepcard .stepcarditems .card .inputGroup .quantity-block {
+    display: flex;
+    align-items: center
+}
+
+.stepPage .stepcard .stepcarditems .card .inputGroup .quantity-block input[type=number] {
+    box-shadow: none;
+    border: 0px;
+    width: 80px;
+    height: 37px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: var(--light);
+    -moz-appearance: textfield
+}
+
+.stepPage .stepcard .stepcarditems .card .inputGroup .quantity-block input[type=number]::-webkit-outer-spin-button,
+.stepPage .stepcard .stepcarditems .card .inputGroup .quantity-block input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0
+}
+
+.stepPage .stepcard .stepcarditems .card .inputGroup .quantity-block input[type=number]:focus {
+    outline: none
+}
+
+.stepPage .stepcard .stepcarditems .card .inputGroup .quantity-block button {
+    width: 32px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: var(--teal);
+    box-shadow: none;
+    border: none;
+    font-size: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    color: var(--white)
+}
+
+.stepPage .stepcard .stepcarditems .card .inputGroup .quantity-block button.quantity-arrow-minus {
+    margin-right: -4px
+}
+
+.stepPage .stepcard .stepcarditems .card .inputGroup .quantity-block button.quantity-arrow-plu {
+    margin-left: -4px
+}
+
+.stepPage .stepcard .stepcarditems .card .form-check .form-check-label {
+    font-size: 18px;
+    line-height: normal;
+    cursor: pointer
+}
+
+.stepPage .stepcard .stepcarditems .card .form-check .form-check-input {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid var(--dark-border)
+}
+
+.stepPage .stepcard .stepcarditems .card .form-check .form-check-input:checked {
+    background: var(--teal);
+    border-color: var(--teal)
+}
+
+.stepPage .stepcard .stepcarditems .card .message {
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    font-size: 18px;
+    color: var(--gray)
+}
+
+.stepPage .stepcard .stepcarditems .card .form-control {
+    border-radius: 8px !important
+}
+
+.stepPage .stepcard .stepcarditems .card .form-control.telinput {
+    max-width: 58px
+}
+
+.stepPage .stepcard .stepcarditems .card .bookedHeading {
+    font-size: 20px;
+    color: var(--light-gray)
+}
+
+.stepPage .stepcard .stepcarditems .card.step2 {
+    min-height: 800px;
+    background: url(../images/step2bg_png.png) no-repeat;
+    background-position: right bottom
+}
+
+.stepPage .stepcard .stepcarditems .card.step2 .picheading {
+    font-size: 24px;
+    color: var(--teal)
+}
+
+.stepPage .stepcard .stepcarditems .card.step2 .picBtn {
+    height: 39px;
+    border-radius: 6px;
+    box-shadow: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 4px 10px;
+    color: var(--white);
+    background-color: var(--teal)
+}
+
+.stepPage .stepcard .stepcarditems .card.step3 {
+    min-height: 800px;
+    background: url(../images/step3bg.png) no-repeat;
+    background-position: right bottom
+}
+
+.stepPage .stepcard .stepcarditems .card.step4 {
+    min-height: 800px;
+    background: url(../images/step4bg.png) no-repeat;
+    background-position: right bottom
+}
+
+.stepPage .stepcard .stepcarditems .card.step4 .form-control {
+    color: var(--light-dark) !important;
+    border-color: var(--light-border) !important
+}
+
+.stepPage .stepcard .stepcarditems .card.step4 .form-control::-moz-placeholder {
+    color: var(--gray)
+}
+
+.stepPage .stepcard .stepcarditems .card.step4 .form-control::placeholder {
+    color: var(--gray)
+}
+
+.stepPage .stepcard .stepcarditems .card.step4 .terms {
+    font-size: 14px;
+    color: var(--heading)
+}
+
+.stepPage .stepcard .stepcarditems .card.step4 .terms span {
+    color: var(--light-blue)
+}
+
+@media screen and (max-width: 1199.98px) {
+    .stepPage .stepcard .stepcarditems .stepHeading {
+        font-size: 25px;
+        margin-bottom: 18px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .stepBar ul {
+        gap: 10px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .crad-body .innerBody .backBtn {
+        font-size: 22px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .crad-body .innerBody .setpformHeading {
+        font-size: 28px;
+        margin-bottom: 30px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .crad-body .innerBody .select .selectedGroup {
+        height: 50px;
+        font-size: 18px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .nextBtn {
+        height: 55px;
+        font-size: 25px
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .stepPage .stepcard .stepcarditems .stepHeading {
+        font-size: 22px;
+        margin-bottom: 16px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .stepBar ul {
+        gap: 8px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .stepBar ul li .stepBtn {
+        height: 18px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .crad-body .innerBody .backBtn {
+        font-size: 18px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .crad-body .innerBody .backBtn img {
+        height: 15px;
+        margin-top: 2px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .crad-body .innerBody .setpformHeading {
+        font-size: 24px;
+        margin-bottom: 25px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .crad-body .innerBody .select .selectedGroup {
+        border-radius: 8px;
+        height: 45px;
+        font-size: 16px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .nextBtn {
+        height: 55px;
+        font-size: 22px
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .stepPage .stepcard .stepcarditems .stepHeading {
+        font-size: 18px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .stepBar ul {
+        gap: 8px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .crad-body .innerBody .backBtn {
+        font-size: 16px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .crad-body .innerBody .backBtn img {
+        height: 13px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .crad-body .innerBody .setpformHeading {
+        font-size: 20px;
+        margin-bottom: 22px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .crad-body .innerBody .select .selectedGroup {
+        border-radius: 4px;
+        height: 40px;
+        font-size: 16px
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .stepPage .stepcard .stepcarditems .stepHeading {
+        display: none
+    }
+
+    .stepPage .stepcard .stepcarditems .card.step1 {
+        box-shadow: none
+    }
+
+    .stepPage .stepcard .stepcarditems .card .crad-body .innerBody .backBtn {
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        overflow: hidden;
+        background: var(--teal);
+        font-size: 16px;
+        top: -20px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .crad-body .innerBody .backBtn img {
+        height: 10px;
+        margin: 0px;
+        filter: brightness(100)
+    }
+
+    .stepPage .stepcard .stepcarditems .card .crad-body .innerBody .backBtn span {
+        display: none
+    }
+
+    .stepPage .stepcard .stepcarditems .card .crad-body .innerBody .setpformHeading {
+        font-size: 18px;
+        margin-bottom: 20px
+    }
+
+    .stepPage .stepcard .stepcarditems .card .crad-body .innerBody .select .selectedGroup {
+        border-radius: 4px;
+        height: 40px;
+        font-size: 16px
+    }
+}
+
+.tripsection {
+    background-color: var(--teal)
+}
+
+.tripsection .tripcrosul {
+    height: 45vh
+}
+
+.tripsection .tripcrosul .owl-stage-outer {
+    padding: 0px;
+    height: 100%
+}
+
+.tripsection .tripcrosul .owl-stage-outer .owl-stage {
+    height: 100%
+}
+
+.tripsection .tripcrosul .owl-stage-outer .owl-stage .owl-item {
+    height: 100%
+}
+
+.tripsection .tripcrosul .owl-stage-outer .owl-stage .owl-item .item {
+    height: 100%
+}
+
+.tripsection .tripcrosul .owl-stage-outer .owl-stage .owl-item .item .tripImg {
+    height: 100%
+}
+
+.tripsection .tripcrosul .owl-stage-outer .owl-stage .owl-item .item .tripImg img {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.tripplan {
+    background-color: var(--teal);
+    padding: 29px 0px
+}
+
+.tripplan .card {
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 0px var(--shadow)
+}
+
+.tripplan .card .card-body .tripname {
+    font-size: 34px;
+    font-weight: 500;
+    color: var(--light-gray)
+}
+
+.tripplan .card .card-body .tripname span {
+    color: var(--teal)
+}
+
+.tripplan .card .card-body .ratingImg {
+    height: 60px
+}
+
+.tripplan .card .card-body .ratingImg img {
+    max-width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+.tripplan .card .card-body .date {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 26px;
+    color: var(--light-dark)
+}
+
+.tripplan .card .card-body .date .dateImg {
+    display: inline-flex;
+    width: 22px;
+    align-items: center;
+    justify-content: center
+}
+
+.tripplan .card .card-body .date .dateImg img {
+    width: 100%
+}
+
+.tripplan .card .card-body .date .dateImg.group {
+    width: 30px;
+    height: 30px
+}
+
+.tripplan .card .card-body .rightSide {
+    position: relative
+}
+
+.tripplan .card .card-body .rightSide::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 1px;
+    top: 0;
+    left: 0;
+    background-color: var(--stepbar)
+}
+
+.tripplan .card .card-body .rightSide .prich {
+    font-weight: 500;
+    color: var(--teal);
+    font-size: 51px
+}
+
+.tripplan .card .card-body .rightSide .persion {
+    font-size: 18px;
+    color: var(--dark-gray)
+}
+
+.agentsection {
+    margin: 55px 0px
+}
+
+.agentsection .card {
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 0px var(--shadow)
+}
+
+.agentsection .card.expendcard {
+    max-height: 300px;
+    height: 100%
+}
+
+.agentsection .card .card-body {
+    padding: 30px
+}
+
+.agentsection .card .card-body .heading {
+    font-size: 26px;
+    color: var(--light-gray);
+    font-weight: 500
+}
+
+.agentsection .card .card-body .expend {
+    color: var(--teal);
+    font-size: 21px
+}
+
+.agentsection .card .card-body .details {
+    font-size: 24px;
+    color: var(--teal);
+    font-weight: 500
+}
+
+.agentsection .card .card-body .linkDetails li .linkitem {
+    display: flex;
+    gap: 20px
+}
+
+.agentsection .card .card-body .linkDetails li .linkitem span {
+    min-width: 25px;
+    height: 25px;
+    display: inline-flex;
+    margin-top: 5px;
+    justify-content: center
+}
+
+.agentsection .card .card-body .linkDetails li .linkitem span img {
+    width: 100%;
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+.agentsection .card .card-body .linkDetails li .linkitem .link {
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--light-gray);
+    transition: all ease-in-out .3s
+}
+
+.agentsection .card .card-body .linkDetails li .linkitem .link:hover {
+    color: var(--teal)
+}
+
+.downloadBtn {
+    color: var(--teal);
+    border: 2px solid var(--teal);
+    padding: 10px 30px;
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    line-height: normal;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all ease-in-out .3s
+}
+
+.downloadBtn:hover {
+    background-color: var(--teal);
+    color: var(--white)
+}
+
+.contectUsBtn {
+    height: 60px;
+    max-width: 261px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 22px;
+    color: var(--white);
+    line-height: normal;
+    background: var(--stebactive);
+    background: linear-gradient(90deg, rgb(40, 220, 217) 0%, rgb(27, 181, 178) 100%);
+    transition: all ease-in-out .3s
+}
+
+.contectUsBtn:hover {
+    opacity: .9
+}

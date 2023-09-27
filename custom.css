@@ -1,0 +1,31 @@
+/* Yogesh CSS  */
+
+ul.agent-details-list li {
+    line-height: 33px;
+    padding: 0;
+}
+ul.agent-details-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.inline-list li {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+ul.inline-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.inline-list .icon {
+    height: 52px;
+    outline: 1px solid #ccc;
+    padding: 26px;
+    width: 39px;
+    display: block;
+    border-radius: 100%;
+}
+
